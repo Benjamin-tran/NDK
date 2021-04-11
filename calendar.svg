@@ -4,7 +4,7 @@ viewBox="0 0 512 512">
 <script type="text/ecmascript"><![CDATA[
 function init() {
   var time = new Date();
-  var locale = "en-gb";
+  var locale = "de-de";
 
   var DD   = time.getDate();
   var DDD  = time.toLocaleString(locale, {weekday: "long" });
@@ -39,7 +39,7 @@ function init() {
   fill="#fff" 
   font-family="monospace"
   font-size="140px"
-  style="text-anchor: left">FEB</text>
+  style="text-anchor: left">XXX</text>
 
 <text id="day"
   x="256" 
@@ -47,7 +47,7 @@ function init() {
   fill="#66757f" 
   font-family="monospace"
   font-size="256px"
-  style="text-anchor: middle">29</text>
+  style="text-anchor: middle">XX</text>
 
 <text id="weekday"
   x="256" 
@@ -55,5 +55,5 @@ function init() {
   fill="#66757f" 
   font-family="monospace"
   font-size="64px"
-  style="text-anchor: middle">Sunday</text>
+  style="text-anchor: middle">XXXXXX</text>
 </svg>
